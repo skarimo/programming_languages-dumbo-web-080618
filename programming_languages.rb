@@ -10,7 +10,7 @@ new_hash = {}
     new_hash[key] = {}
     new_hash[key] = value
         new_hash[key][:style] = [k]
-        
+      end
 end
 end
 new_hash
