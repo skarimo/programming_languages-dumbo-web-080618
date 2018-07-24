@@ -5,7 +5,7 @@ new_hash = {}
  languages.each do |k, v|
   v.each do |key, value|
    if new_hash.keys.include?(key.to_s)
-     
+     puts "hello yes we are here"
     else
     new_hash[key] = {}
     new_hash[key] = value
