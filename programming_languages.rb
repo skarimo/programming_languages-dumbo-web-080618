@@ -4,7 +4,7 @@ def reformat_languages(languages)
 new_hash = {}
  languages.each do |k, v|
   v.each do |key, value|
-   if new_hash.keys.to_s.include?(key.to_s)
+   if new_hash.keys.include?(key.to_s)
      
     else
     new_hash[key] = {}
